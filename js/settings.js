@@ -49,20 +49,64 @@
     }
 
 	/**
-	 * Testimonial Slider Slick Settings
+	 * Fontpage Portfolio Slick Settings
 	 *
 	 */
-	$('.new_products_slider').slick({
-		autoplay: false,
+	$('.portfolio_items').slick({
+		autoplay: true,
 		arrows: true,
 		dots: false,
 		draggable: true,
 		fade: false,
 		infinite: true,
-		slidesToShow: 4,
+		slidesToShow: 1,
 		responsive: [
 	    {
-	      breakpoint: 480,
+	      breakpoint: 991,
+	      settings: {
+	        slidesToShow: 1
+	      }
+	    }
+	  ]
+	});
+
+	/**
+	 * Fontpage Priceing Slider Slick Settings
+	 *
+	 */
+	$('.price_items').slick({
+		autoplay: true,
+		arrows: true,
+		dots: false,
+		draggable: true,
+		fade: false,
+		infinite: true,
+		slidesToShow: 2,
+		responsive: [
+	    {
+	      breakpoint: 991,
+	      settings: {
+	        slidesToShow: 1
+	      }
+	    }
+	  ]
+	});
+
+	/**
+	 * Fontpage Team Member Slick Settings
+	 *
+	 */
+	$('.team_member_items').slick({
+		autoplay: true,
+		arrows: false,
+		dots: true,
+		draggable: true,
+		fade: false,
+		infinite: true,
+		slidesToShow: 3,
+		responsive: [
+	    {
+	      breakpoint: 991,
 	      settings: {
 	        slidesToShow: 1
 	      }
@@ -121,7 +165,7 @@
 	//owl carousel band icon
 	  var owl = $('.owl-carousel');
 	  owl.owlCarousel({
-	    items: 6,
+	    items: 7,
 	    loop: true,
 	    margin: 10,
 	    autoplay: true,
