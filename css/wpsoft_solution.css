@@ -800,6 +800,17 @@ ul.price_explore li:last-child {
     box-shadow: none;
     width: 100%;
 }
+
+@media screen and (max-width: 520px){
+ul.price_explore li {
+    border-right: none;
+    width: 100%;
+    margin: 10px 0px !important;
+   }
+   .price_progress.progress {
+    height: 110px;
+}
+}
 /***** pricing slider arrow *****/
 #price_section .price_items .slick-slide {
   outline: 0;
