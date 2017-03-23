@@ -15,23 +15,54 @@
 	 * Home Page Slider Slick Settings
 	 *
 	 */
-	$('#homeslider').on('init', function(e, slick) {
-        var $firstAnimatingElements = $('div.slider_item:first-child').find('[data-animation]');
-        doAnimations($firstAnimatingElements);    
-    });
-    $('#homeslider').on('beforeChange', function(e, slick, currentSlide, nextSlide) {
-        var $animatingElements = $('div.slider_item[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
-        doAnimations($animatingElements);    
-    });
-    $('#homeslider').slick({
+
+	$('.slider_items').slick({
 		autoplay: true,
 		arrows: false,
-		dots: true,
-		draggable: true,
+	    slidesToShow: 1,
+	    slidesToScroll: 1,
+	    draggable: true,
+	    dots: false,
 		fade: false,
-		infinite: true,
-		slidesToShow: 1,
+	    infinite: true,
+	    cssEase: 'linear',
+	    responsive: [
+	    {
+	      breakpoint: 480,
+	      settings: {
+	        slidesToShow: 1
+	      }
+	    }
+	  ]
 	});
+
+	/**
+	 * Home Page Blog Settings
+	 *
+	 */
+
+	$('.latest_news_items').slick({
+		autoplay: true,
+		arrows: false,
+	    slidesToShow: 1,
+	    slidesToScroll: 1,
+	    draggable: true,
+	    dots: true,
+		fade: false,
+	    infinite: true,
+	    responsive: [
+	    {
+	      breakpoint: 480,
+	      settings: {
+	        slidesToShow: 1
+	      }
+	    }
+	  ]
+	});
+
+
+
+	//animations setting
     function doAnimations(elements) {
         var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
         elements.each(function() {
@@ -47,72 +78,6 @@
             });
         });
     }
-
-	/**
-	 * Fontpage Portfolio Slick Settings
-	 *
-	 */
-	$('.portfolio_items').slick({
-		autoplay: true,
-		arrows: true,
-		dots: false,
-		draggable: true,
-		fade: false,
-		infinite: true,
-		slidesToShow: 1,
-		responsive: [
-	    {
-	      breakpoint: 991,
-	      settings: {
-	        slidesToShow: 1
-	      }
-	    }
-	  ]
-	});
-
-	/**
-	 * Fontpage Priceing Slider Slick Settings
-	 *
-	 */
-	$('.price_items').slick({
-		autoplay: true,
-		arrows: true,
-		dots: false,
-		draggable: true,
-		fade: false,
-		infinite: true,
-		slidesToShow: 2,
-		responsive: [
-	    {
-	      breakpoint: 991,
-	      settings: {
-	        slidesToShow: 1
-	      }
-	    }
-	  ]
-	});
-
-	/**
-	 * Fontpage Team Member Slick Settings
-	 *
-	 */
-	$('.team_member_items').slick({
-		autoplay: true,
-		arrows: false,
-		dots: true,
-		draggable: true,
-		fade: false,
-		infinite: true,
-		slidesToShow: 3,
-		responsive: [
-	    {
-	      breakpoint: 991,
-	      settings: {
-	        slidesToShow: 1
-	      }
-	    }
-	  ]
-	});
 
 	/**
 	 * Smooth scroll
@@ -162,42 +127,5 @@
 		
 	});
 
-	//owl carousel band icon
-	  var owl = $('.owl-carousel');
-	  owl.owlCarousel({
-	    items: 7,
-	    loop: true,
-	    margin: 10,
-	    autoplay: true,
-	    autoplayTimeout: 1000,
-	    autoplayHoverPause: true,
-	    responsiveClass:true,
-    	responsive:{
-	        0:{
-	            items:1,
-	            nav:false
-	        },
-	        600:{
-	            items:3,
-	            nav:false
-	        },
-	        1000:{
-	            items:5,
-	            nav:true,
-	            loop:false
-	        }
-	    }
-	  });
-
-
-
-
-
-
-
-
-
-
 
 }(jQuery));	
-
