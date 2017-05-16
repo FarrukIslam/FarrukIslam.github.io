@@ -5,15 +5,28 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>west Chester lacrosse | Homepage</title>
+		<title>Wp Soft Solution | Homepage</title>
 
-		<!-- Bootstrap -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700" rel="stylesheet">
 		<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/slider-bootstrap.min.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootslider.css" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="css/slick-theme.css">
+		<link href="css/font-awesome.css" rel="stylesheet">
+		<link href="css/ionicons.min.css" rel="stylesheet">
+		<link href="css/ionicons.css" rel="stylesheet">
+		<link href="css/owl.carousel.css" rel="stylesheet">
+		<link href="css/owl.theme.default.css" rel="stylesheet">
+		<link href="css/progressbar.css" rel="stylesheet">
+		<link href="css/animate.css" rel="stylesheet">
 		<link href="css/slick.css" rel="stylesheet">
 		<link href="fonts/icon.css" rel="stylesheet">
-		<link href="css/wclacrosse.css" rel="stylesheet">
+		<link href="css/wpsoft_solution.css" rel="stylesheet">
+
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,286 +34,1414 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
+		
 	</head>
 	<body>
-		<div id="slider_section">
-			<div class="homepage_slider">
-				<div class="slider_fix_content">
-					<div class="slider_conent_wrapper">
-						<div class="slider_content">
-							<span>Welcome to</span>
-							<img src="img/logohome.png" class="img-responsive logo_img">
-							<p>west Chester <strong>lacrosse</strong></p>
+
+		<header id="header_section">
+			<div class="menu_top_bar">
+				<div class="container">
+					<div class="menu_top_bar_content">
+						<ul class="nav navbar-nav menu_top_contact">
+							<li><a href="#"><i class="fa fa-phone"></i>+8801744421884</a></li>
+							<li><a href="#"><i class="fa fa-envelope"></i>farrukislam1@gmail.com</a></li>
+						</ul>
+						<ul class="menu_top_social nav navbar-nav navbar-right">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<nav id="primaryMenu" class="navbar">
+				<div class="container">
+					<div class="primary_logo">
+						<img src="img/logo.png" class="img-responsive">
+					</div>
+					<div class="primary_info">
+						<div class="primary_info_item">
+							<div class="primary_info_icon">
+								<img src="img/01.png" class="img-responsive">
+							</div>
+							<div class="primary_info_content">
+								<p class="cont">24/7 Support</p>
+								<p>We Are Avaiable Here</p>
+							</div>
+						</div>
+					
+						<div class="primary_info_item">
+							<div class="primary_info_icon">
+								<img src="img/02.png" class="img-responsive">
+							</div>
+							<div class="primary_info_content">
+								<p class="cont">45 Day Guarantee</p>
+								<p>We Are Avaiable Here</p>
+							</div>
+						</div>
+
+						<div class="primary_info_item">
+							<div class="primary_info_icon">
+								<img src="img/03.png" class="img-responsive">
+							</div>
+							<div class="primary_info_content">
+								<p class="cont">99.9% Uptime</p>
+								<p>We Are Avaiable Here</p>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="slider_items">
-				    <img src="img/banner.jpg" />
-				    <img src="img/banner.jpg" />
-				</div>
-				<div class="slider_content_right">rotating Images/Info?</div>
-			</div>
-		</div>
+			</nav>
 
-		<!-- call to action section -->
-		<section id="callto_action">
+			<!-- Navbar -->
+			<div class="navbar navbar-default main_menu">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary_nav">
+						  <span class="icon-bar"></span>
+						  <span class="icon-bar"></span>
+						  <span class="icon-bar"></span>
+						</button>
+					</div>
+			
+					<div class="collapse navbar-collapse" id="primary_nav">
+						<ul class="nav navbar-nav">  
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Projects</a></li>
+							<li><a href="#">Product</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div><!-- /collapse -->
+				</div><!-- /container-fluid -->
+			</div><!--/ Navbar -->
+
+		</header>
+
+
+        <div id="slider_section">
+            <div class="bootslider" id="bootslider">
+                <!-- Bootslider Loader -->
+                <div class="bs-loader">
+                    <img src="img/loader.gif" width="31" height="31" alt="Loading.." id="loader"/>
+                </div>
+                <!-- /Bootslider Loader -->
+
+                <!-- Bootslider Container -->
+                <div class="bs-container">
+
+                    <!-- Bootslider Slide -->
+                    <div class="bs-slide active" data-animate-in="flipInX" data-animate-out="holeOut">
+                        <div class="bs-foreground">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12 bs-vertical-center">
+                                        <div 
+                                            data-animate-in="fadeInLeft" data-animate-out="fadeOutUpBig" data-delay="1600">
+                                            <h1 class="heading">
+                                                Your Concept
+                                            </h1>
+                                            <h2 class="subheading text-white">
+                                                FREE YOUR IMAGINATION
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bs-background">
+                            <img src="img/slide-4-layer-1.png" class="bs-layer"
+                                 data-animate-in="fadeInRightBig" data-animate-out="fadeOutRightBig" data-delay="400"
+                                 data-width="666" data-height="649" data-right="0" data-bottom="0"/>
+                            <img src="img/banner1.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- /Bootslider Slide -->
+
+                    <!-- Bootslider Slide -->
+                    <div class="bs-slide" data-animate-in="bounceInUp" data-animate-out="hinge">
+                        <div class="bs-foreground">
+                            <div class="container">
+                                <div class="row" data-animate-in="fadeInLeftBig" data-delay="1000" data-animate-out="fadeOutDown">
+                                    <div class="col-md-12">
+                                        <h1 class="heading">WE ARE AVAILABLE</h1>
+                                        <p class="subheading text-white">SIMPLY LOVES YOUR IDEA</p>
+                                        <p>
+                                            <a class="btn btn-primary" href="http://codecanyon.net/item/bootslider-responsive-bootstrap-css3-slider/6477433?ref=AlexGrozav">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bs-background">
+                            <img src="img/slide-1-layer-1.png" 
+                                 data-animate-in="fadeInUpBig" data-animate-out="fadeLeftDownBig" class="bs-layer" 
+                                 data-width="683" data-height="302" data-left="342" data-bottom="100"/>
+                            <img src="img/slide-1-layer-2.png" 
+                                 data-animate-in="fadeInLeftBig" data-animate-out="fadeInDownBig" class="bs-layer" 
+                                 data-width="442" data-height="273" data-left="382" data-bottom="0" data-delay="1200"/>
+                            <img src="img/banner2.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- /Bootslider Slide -->
+
+                    <!-- Bootslider Slide -->
+                    <div class="bs-slide" data-animate-in="bounceInDown" data-animate-out="flipOutX">
+                        <div class="bs-foreground">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <div data-animate-in="tada" data-animate-out="fadeOutUpBig" data-delay="2000">
+                                            <h1 class="heading">
+                                                ALL DEVICES
+                                            </h1>
+                                            <h2 class="subheading text-white">
+                                                ABSOLUTELY RESPONSIVE
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bs-background">
+                            <img src="img/slide-2-layer-4.png" class="bs-layer"
+                                 data-animate-in="fadeInDown" data-animate-out="fadeOutUpBig" data-delay="2000"
+                                 data-width="775" data-height="473" data-right="125" data-top="243"/>
+                            <img src="img/slide-2-layer-1.png" class="bs-layer"
+                                 data-animate-in="fadeInDownBig" data-animate-out="fadeOutUpBig" data-delay="800"
+                                 data-width="922" data-height="532" data-left="237" data-top="174"/>
+                            <img src="img/slide-2-layer-2.png" class="bs-layer"
+                                 data-animate-in="fadeInRightBig" data-animate-out="fadeOutUpBig" data-delay="1200"
+                                 data-width="208" data-height="410" data-right="322" data-top="276"/>
+                            <img src="img/slide-2-layer-3.png" class="bs-layer"
+                                 data-animate-in="fadeInLeftBig" data-animate-out="fadeOutUpBig" data-delay="1600"
+                                 data-width="423" data-height="512" data-left="183" data-top="203"/>
+                            <img src="img/slide-2.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- /Bootslider Slide -->
+
+                    <!-- Bootslider Slide -->
+                    <div class="bs-slide" data-animate-in="rollIn" data-animate-out="flipOutX">
+                        <div class="bs-foreground">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h1 class="heading"
+                                            data-animate-in="fadeInLeftBig" data-animate-out="fadeOutLeftBig" data-delay="800">
+                                            NOW LAYERED
+                                        </h1>
+                                        <h2 class="subheading text-white"
+                                            data-animate-in="fadeInLeftBig" data-animate-out="fadeOutLeftBig" data-delay="2000">
+                                            AND EVEN MORE AWESOME
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bs-background">
+                            <img src="img/slide-3-layer-1.png" class="bs-layer"
+                                 data-animate-in="fadeInRightBig" data-animate-out="fadeOutLeftBig" data-delay="800"
+                                 data-width="854" data-height="508" data-left="82" data-top="200"/>
+                            <img src="img/slide-3-layer-2.png" class="bs-layer"
+                                 data-animate-in="fadeInRightBig" data-animate-out="fadeOutLeftBig" data-delay="1200"
+                                 data-width="854" data-height="508" data-left="336" data-top="140"/>
+                            <img src="img/slide-3-layer-3.png" class="bs-layer"
+                                 data-animate-in="fadeInRightBig" data-animate-out="fadeOutLeftBig" data-delay="1600"
+                                 data-width="854" data-height="508" data-right="23" data-top="95"/>
+                            <img src="img/slide-3.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- /Bootslider Slide -->
+
+                    <!-- Bootslider Slide -->
+                    <div class="bs-slide" data-animate-in="scaleUpIn" data-animate-out="scaleUpOut">
+                        <div class="bs-background">
+                            <img src="img/slide-5-layer-1.png" class="bs-layer"
+                                 data-animate-in="scaleDownIn" data-animate-out="fadeOutLeftBig" data-delay="800"
+                                 data-width="1440" data-height="720" data-right="0" data-top="0"/>
+                            <div class="bs-layer" 
+                                 data-width="894" data-height="510" data-left="282" data-top="85">
+                                <div class="bs-video black" data-animate-in="fadeIn" data-delay="1500" data-animate-out="fadeOutLeftBig"> 
+                                    <iframe src="http://player.vimeo.com/video/79470878" width="500" height="285" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <img src="img/slide-5.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- /Bootslider Slide -->
+
+                    <!-- Bootslider Slide -->
+                    <div class="bs-slide" data-animate-in="openDownLeftReturn" data-animate-out="slideUp">
+                        <div class="bs-foreground">
+                            <div class="bs-video-fullscreen">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/-qwevh0_bZY" data-bs-video-autoplay="true" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="bs-background">
+                            <img src="img/slide-6.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- /Bootslider Slide -->
+
+                </div>
+                <!-- /Bootslider Container -->
+
+                <!-- Bootslider Progress -->
+                <div class="bs-progress progress">
+                    <div class="progress-bar progress-primary"></div>
+                </div>
+                <!-- /Bootslider Progress -->
+
+                <!-- Bootslider Thumbnails -->
+                <div class="bs-thumbnails text-center text-turquoise">
+                    <ul class=""></ul>
+                </div>
+                <!-- /Bootslider Thumbnails -->
+
+                <!-- Bootslider Pagination -->
+                <div class="bs-pagination text-center text-turquoise">
+                    <ul class="pagination"></ul>
+                </div>
+                <!-- /Bootslider Pagination -->
+
+                <!-- Bootslider Controls -->
+                <div class="bs-controls text-center">
+                    <div class="btn-group">
+                        <a href="javascript:void(0);" class="btn btn-primary bs-prev">&lt;</a>
+                        <a href="javascript:void(0);" class="btn btn-primary bs-next">&gt;</a>
+                    </div>
+                </div>
+                <!-- /Bootslider Controls -->
+
+            </div>
+        </div>
+
+
+
+
+		<!-- </section> -->
+		<!-- /home Slider -->
+
+		<section id="about_section">
 			<div class="container">
-				<div class="row text-center call_to_action padding_bottom_60">
-					<h4>Our mission is to promote the game of lacrosse and to provide a safe and fun opportunity while emphasizing the importance of good sportsmanship, fitness and teamwork.</h4>
-					<a href="#" class="btn btn_register">Register <strong>Now</strong></a>
+				<div class="row">
+					<div class="col-sm-5 col-lg-6 col-xs-12">
+						<div class="about_left">
+							<img src="img/aaa.jpeg" class="img-responsive">
+						</div>
+					</div>
+					<div class="col-sm-7 col-lg-6 col-xs-12">
+						<div class="about_right">
+							<h3>About Us
+								<span>5 Years of experience in Computer repair</span>
+							</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt consectetur dolore magna aliqua. Ut enim ad minim veniam</p>
+							<a href="#" class="btn btn_read_more">Read More</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- Latest News -->
+		<section id="service_section">
+			<div class="container">
+				<div class="section_title text-center">
+					<p> Our Repair Services</p>
+					<h3>OUR SERVICES</h3>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-6 service_item text-center">
+						<div class="service_icon">
+							<img src="img/service1.png" class="img-responsive"> 
+						</div>
+						<div class="service_content">
+							<h4>Firewall</h4>
+							<p>Lorem ipsum dolor sit amet, placeat necessitatibus.<br>dolor sit amet Lorem ipsum dolor</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 service_item text-center">
+						<div class="service_icon">
+							<img src="img/service2.png" class="img-responsive"> 
+						</div>
+						<div class="service_content">
+							<h4>Data Encryption</h4>
+							<p>Lorem ipsum dolor sit amet, placeat necessitatibus.<br>dolor sit amet Lorem ipsum dolor</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 service_item text-center">
+						<div class="service_icon">
+							<img src="img/service3.png" class="img-responsive"> 
+						</div>
+						<div class="service_content">
+							<h4>Data Analysis</h4>
+							<p>Lorem ipsum dolor sit amet, placeat necessitatibus.<br>dolor sit amet Lorem ipsum dolor</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 service_item text-center">
+						<div class="service_icon">
+							<img src="img/service4.png" class="img-responsive"> 
+						</div>
+						<div class="service_content">
+							<h4>Support Center</h4>
+							<p>Lorem ipsum dolor sit amet, placeat necessitatibus.<br>dolor sit amet Lorem ipsum dolor</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 service_item text-center">
+						<div class="service_icon">
+							<img src="img/service5.png" class="img-responsive"> 
+						</div>
+						<div class="service_content">
+							<h4>Technical Service</h4>
+							<p>Lorem ipsum dolor sit amet, placeat necessitatibus.<br>dolor sit amet Lorem ipsum dolor</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 service_item text-center">
+						<div class="service_icon">
+							<img src="img/service6.png" class="img-responsive"> 
+						</div>
+						<div class="service_content">
+							<h4>Data Protection</h4>
+							<p>Lorem ipsum dolor sit amet, placeat necessitatibus.<br>dolor sit amet Lorem ipsum dolor</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-		<section id="latest_news_section" class="latest_news_section">
+		<!--portfolio -->
+		<section id="portfolio_section">
+			
+				<div class="container">
+					<div class="row text-center white padding_bottom_60">
+						<h2>Our Awesome <span class="site_color">portfolios</span></h2>
+						<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse <br>illum dolore eu feugiat nulla facilisis at vero eros et.</p>
+					</div>
+				<div class="portfolio_items">
+					<div class="portfolio_item">
+						<div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12 border_halfside">
+							<div class="portfolio_contenent">
+								<span>SPECIALISED IN</span>
+								<h3>OUR DIGITAL EXPERENCES</h3>
+							</div>
+							<div class="experience_wrapper">
+								<div id="accordion" class="panel-group">
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a href="#collapseOne" data-parent="#accordion" data-toggle="collapse" class="side-arrow"><i class="fa fa-trophy"></i>AWARD WINNING?</a>
+											</h4>
+			                            </div>
+			                            <div class="panel-collapse collapse in" id="collapseOne">
+			                                <div class="panel-body">
+			                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco</strong> laboris nisi ut aliquip ex ea commodo consequat.</p>
+			                                </div>
+			                            </div>
+			                        </div>
+			                        <div class="panel panel-default">
+			                            <div class="panel-heading">
+			                                <h4 class="panel-title">
+			                                    <a href="#collapseTwo" data-parent="#accordion" data-toggle="collapse"><i class="fa fa-umbrella"></i> WHAT WE DO?</a>
+			                                </h4>
+			                            </div>
+			                            <div class="panel-collapse collapse" id="collapseTwo">
+			                                <div class="panel-body">
+			                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco</strong> laboris nisi ut aliquip ex ea commodo consequat.</p>
+			                                </div>
+			                            </div>
+			                        </div>
+			                        <div class="panel panel-default">
+			                            <div class="panel-heading">
+			                                <h4 class="panel-title">
+			                                    <a href="#collapseThree" data-parent="#accordion" data-toggle="collapse"><i class="fa fa-rocket"></i>WHY CHOOSE US?</a>
+			                                </h4>
+			                            </div>
+			                            <div class="panel-collapse collapse" id="collapseThree">
+			                                <div class="panel-body">
+			                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco</strong> laboris nisi ut aliquip ex ea commodo consequat.</p>
+			                                </div>
+			                            </div>
+			                        </div>
+			                    </div>
+			                    <div class="more-about text-left about-btn">
+		                        	<a href="#">READ MORE ABOUT US</a>
+		                    	</div>
+			        		</div>
+
+						</div>
+						<div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="portfolio_website">
+								<img src="img/group_device.png" class="img-responsive">
+							</div>
+						</div>
+					</div>
+					<div class="portfolio_item">
+						<div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12 border_halfside">
+							<div class="portfolio_contenent">
+								<span>SPECIALISED IN</span>
+								<h3>OUR DIGITAL EXPERENCES</h3>
+							</div>
+							<div class="experience_wrapper">
+								<div id="accordion" class="panel-group">
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a href="#collapseOne" data-parent="#accordion" data-toggle="collapse" class="side-arrow"><i class="fa fa-trophy"></i>AWARD WINNING?</a>
+											</h4>
+			                            </div>
+			                            <div class="panel-collapse collapse in" id="collapseOne">
+			                                <div class="panel-body">
+			                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco</strong> laboris nisi ut aliquip ex ea commodo consequat.</p>
+			                                </div>
+			                            </div>
+			                        </div>
+			                        <div class="panel panel-default">
+			                            <div class="panel-heading">
+			                                <h4 class="panel-title">
+			                                    <a href="#collapseTwo" data-parent="#accordion" data-toggle="collapse"><i class="fa fa-umbrella"></i> WHAT WE DO?</a>
+			                                </h4>
+			                            </div>
+			                            <div class="panel-collapse collapse" id="collapseTwo">
+			                                <div class="panel-body">
+			                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco</strong> laboris nisi ut aliquip ex ea commodo consequat.</p>
+			                                </div>
+			                            </div>
+			                        </div>
+			                        <div class="panel panel-default">
+			                            <div class="panel-heading">
+			                                <h4 class="panel-title">
+			                                    <a href="#collapseThree" data-parent="#accordion" data-toggle="collapse"><i class="fa fa-rocket"></i>WHY CHOOSE US?</a>
+			                                </h4>
+			                            </div>
+			                            <div class="panel-collapse collapse" id="collapseThree">
+			                                <div class="panel-body">
+			                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco</strong> laboris nisi ut aliquip ex ea commodo consequat.</p>
+			                                </div>
+			                            </div>
+			                        </div>
+			                    </div>
+			                    <div class="more-about text-left about-btn">
+		                        	<a href="#">READ MORE ABOUT US</a>
+		                    	</div>
+			        		</div>
+
+						</div>
+						<div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="portfolio_website">
+								<img src="img/website_demo/2.png" class="img-responsive">
+							</div>
+						</div>
+					</div>
+					<div class="portfolio_item">
+						<div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12 border_halfside">
+							<div class="portfolio_contenent">
+								<span>SPECIALISED IN</span>
+								<h3>OUR DIGITAL EXPERENCES</h3>
+							</div>
+							<div class="experience_wrapper">
+								<div id="accordion" class="panel-group">
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a href="#collapseOne" data-parent="#accordion" data-toggle="collapse" class="side-arrow"><i class="fa fa-trophy"></i>AWARD WINNING?</a>
+											</h4>
+			                            </div>
+			                            <div class="panel-collapse collapse in" id="collapseOne">
+			                                <div class="panel-body">
+			                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco</strong> laboris nisi ut aliquip ex ea commodo consequat.</p>
+			                                </div>
+			                            </div>
+			                        </div>
+			                        <div class="panel panel-default">
+			                            <div class="panel-heading">
+			                                <h4 class="panel-title">
+			                                    <a href="#collapseTwo" data-parent="#accordion" data-toggle="collapse"><i class="fa fa-umbrella"></i> WHAT WE DO?</a>
+			                                </h4>
+			                            </div>
+			                            <div class="panel-collapse collapse" id="collapseTwo">
+			                                <div class="panel-body">
+			                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco</strong> laboris nisi ut aliquip ex ea commodo consequat.</p>
+			                                </div>
+			                            </div>
+			                        </div>
+			                        <div class="panel panel-default">
+			                            <div class="panel-heading">
+			                                <h4 class="panel-title">
+			                                    <a href="#collapseThree" data-parent="#accordion" data-toggle="collapse"><i class="fa fa-rocket"></i>WHY CHOOSE US?</a>
+			                                </h4>
+			                            </div>
+			                            <div class="panel-collapse collapse" id="collapseThree">
+			                                <div class="panel-body">
+			                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco</strong> laboris nisi ut aliquip ex ea commodo consequat.</p>
+			                                </div>
+			                            </div>
+			                        </div>
+			                    </div>
+			                    <div class="more-about text-left about-btn">
+		                        	<a href="#">READ MORE ABOUT US</a>
+		                    	</div>
+			        		</div>
+
+						</div>
+						<div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="portfolio_website">
+								<img src="img/website_demo/3.png" class="img-responsive">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="feature_section padding_bottom_0">
+			<div class="feature_item padding_bottom_60"> 
+				<div class="container"> 
+					<div class="row"> 
+						<div class="col-md-7 feature_content"> 
+							<h2>Get Started Quickly &amp; Easily</h2> 
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cum delectus, sunt eos esse quasi dignissimos. Minima deserunt nobis molestias voluptatum ut sunt sapiente quia? Totam consequatur, excepturi error sint.</p>
+							<a href="#" class="btn btn_read_more">Read More</a>
+						</div>
+						<div class="col-md-5 feature_img"> 
+							<img src="img/feature1.png" alt="" class="img-responsive">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="feature_item feature_bg" style=" background-image: url(img/featurebg.png);"> 
+				<div class="container"> 
+					<div class="row"> 
+						<div class="col-md-5 feature_img"> 
+							<img src="img/feature2.png" alt="" class="img-responsive">
+						</div>
+						<div class="col-md-7 feature_content"> 
+							<h2>Drag and Drop Website Builder</h2> 
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cum delectus, sunt eos esse quasi dignissimos. Minima deserunt nobis molestias voluptatum ut sunt sapiente quia? Totam consequatur, excepturi error sint.</p>
+							<a href="#" class="btn btn_read_more">Read More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--price section -->
+		<section id="price_section" style="padding-bottom:0px !important;">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5">
-						<div class="latest_news_left">
-							<div class="latest_news site_bgcolor">
-								<h3>Latest <span>NEWS</span></h3>
-							</div>
-						</div>
+					<div class="col-md-6 col-md-offset-3 text-center padding_bottom_60">
+						<h2>Price <span class="site_color">Table</span></h2>
 					</div>
-					<div class="col-md-7 latest_news_items ">
-						<div class="latest_news_content">
-							<div class="latest_news_itemss">
-								<div class="latest_news_item">
-									<p>WC Henderson Girls’ Lacrosse Team hosting a girls lacrosse clinic. For experienced players, beginners or have never played at all.  This is a good way to get warmed up for the WCLA spring season!</p>
-									<p>Sunday, February 26th.  <a href="#">Click Here</a> for more information and sign-up form.</p>
-									<p><a href="#">Spring Registration</a> - Early bird discount until</p>
-									<p>2/1:  <a href="#">Online Registration Here.</a></p>
-									<p><a href="#">WC Lacrosse Futures</a> -  A fun introduction to lacrosse and athletic coordination for boys and girls in Kindergarten and younger.</p>
-									<p>Link: <a href="#">WC Lacrosse Futures Flyer</a></p>
-									<p>Coaches Registration- All coaches must complete the coaches 
-									<br>registration to be on the field at any time:<br>  
-									Online Registration </p>
+				</div>
+				<div class="row">
+					<div class="price_items">
+						<div class="col-xs-12 col-sm-12 col-md-6">
+							<div class="price_item">
+								<div class="price_item_top" style="background-color:#2E375F !Important;">
+									<div class="row">
+										<div class="col-md-6">
+											<img src="img/price/screenshot.png" class="img-responsive">
+										</div>
+										<div class="col-md-6">
+											<div class="price_content pull-left">
+												<span class="price">$200</span>
+												<h3>Blog Website</h3>
+												<a href="#" class="btn get_invoice">Get Invoice</a>
+											</div>
+										</div>
+									</div>	
 								</div>
+								<div class="price_item_bottom">
+									<div class="row">
+										<div class="col-md-12">
+											<div class="price_detail">
+												<h4>Html to Wordpress Blog Website </h4>
+												<p>Lorem ipsum dolor sit ametcon secte adipisicing elit Sintume likumta.Lorem ipsum dolor sit ametcon secte adipisicing elit .</p>
+
+												<div class="price_progress progress">
+												    <div class="circle done">
+													    <span class="label">1</span>
+													    <span class="title">PSD</span>
+												 	</div>
+												  	<span class="bar done"></span>
+
+												  	<div class="circle done">
+													    <span class="label">2</span>
+													    <span class="title">HTML</span>
+												  	</div>
+												  	<span class="bar half"></span>
+
+													<div class="circle active">
+													    <span class="label">3</span>
+													    <span class="title">WORDPRESS</span>
+													</div>
+												</div>
+
+												<ul class="price_explore list-inline">
+													<li><strong>Price</strong>Pre- $2500</li>
+													<li><strong>Discount</strong>$250</li>
+													<li><strong>Price</strong>New-$2500</li>
+												</ul>
+											</div>
+										</div>	
+									</div>
+								</div>	
 							</div>
 						</div>
-						
+						<div class="col-xs-12 col-sm-12 col-md-6">
+							<div class="price_item">
+								<div class="price_item_top" style="background-color: #546dfe !important;">
+									<div class="row">
+										<div class="col-md-6">
+											<img src="img/price/woocommerce.png" class="img-responsive">
+										</div>
+										<div class="col-md-6">
+											<div class="price_content pull-left">
+												<span class="price">$500</span>
+												<h3>Woocommerce Website</h3>
+												<a href="#" class="btn get_invoice">Get Invoice</a>
+											</div>
+										</div>
+									</div>	
+								</div>
+								<div class="price_item_bottom">
+									<div class="row">
+										<div class="col-md-12">
+											<div class="price_detail">
+												<h4>Html to Wordpress Woocommerce Website </h4>
+												<p>Lorem ipsum dolor sit ametcon secte adipisicing elit Sintume likumta.Lorem ipsum dolor sit ametcon secte adipisicing elit .</p>
+
+												<div class="price_progress progress">
+												    <div class="circle done">
+													    <span class="label">1</span>
+													    <span class="title">PSD</span>
+												 	</div>
+												  	<span class="bar done"></span>
+
+												  	<div class="circle done">
+													    <span class="label">2</span>
+													    <span class="title">HTML</span>
+												  	</div>
+												  	<span class="bar half"></span>
+
+													<div class="circle active">
+													    <span class="label">3</span>
+													    <span class="title">WORDPRESS</span>
+													</div>
+												  	<span class="bar"></span>
+
+												    <div class="circle">
+													    <span class="label">4</span>
+													    <span class="title">WOCOMMERCE</span>
+												    </div>
+												</div>
+
+												<ul class="price_explore list-inline">
+													<li><strong>Price</strong>Pre- $2500</li>
+													<li><strong>Discount</strong>$250</li>
+													<li><strong>Price</strong>New-$2500</li>
+												</ul>
+											</div>
+										</div>	
+									</div>
+								</div>	
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6">
+							<div class="price_item">
+								<div class="price_item_top" style="background-color: #26a65b !important;">
+									<div class="row">
+										<div class="col-md-6">
+											<img src="img/price/woocommerce.png" class="img-responsive">
+										</div>
+										<div class="col-md-6">
+											<div class="price_content pull-left">
+												<span class="price">$300</span>
+												<h3>Woocommerce Website</h3>
+												<a href="#" class="btn get_invoice">Get Invoice</a>
+											</div>
+										</div>
+									</div>	
+								</div>
+								<div class="price_item_bottom">
+									<div class="row">
+										<div class="col-md-12">
+											<div class="price_detail">
+												<h4>Html to Wordpress Woocommerce Website </h4>
+												<p>Lorem ipsum dolor sit ametcon secte adipisicing elit Sintume likumta.Lorem ipsum dolor sit ametcon secte adipisicing elit .</p>
+
+												<div class="price_progress progress">
+												    <div class="circle done">
+													    <span class="label">1</span>
+													    <span class="title">PSD</span>
+												 	</div>
+												  	<span class="bar done"></span>
+
+												  	<div class="circle done">
+													    <span class="label">2</span>
+													    <span class="title">HTML</span>
+												  	</div>
+												  	<span class="bar half"></span>
+
+													<div class="circle active">
+													    <span class="label">3</span>
+													    <span class="title">WORDPRESS</span>
+													</div>
+												  	<span class="bar"></span>
+
+												    <div class="circle">
+													    <span class="label">4</span>
+													    <span class="title">WOCOMMERCE</span>
+												    </div>
+												</div>
+
+												<ul class="price_explore list-inline">
+													<li><strong>Price</strong>Pre- $2500</li>
+													<li><strong>Discount</strong>$250</li>
+													<li><strong>Price</strong>New-$2500</li>
+												</ul>
+											</div>
+										</div>	
+									</div>
+								</div>	
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6">
+							<div class="price_item">
+								<div class="price_item_top" style="background: rgba(0, 0, 0, 0) linear-gradient(to top, #f45e12, #f00733) repeat scroll 0 0 !Important;">
+									<div class="row">
+										<div class="col-md-6">
+											<img src="img/price/woocommerce.png" class="img-responsive">
+										</div>
+										<div class="col-md-6">
+											<div class="price_content pull-left">
+												<span class="price">$300</span>
+												<h3>Woocommerce Website</h3>
+												<a href="#" class="btn get_invoice">Get Invoice</a>
+											</div>
+										</div>
+									</div>	
+								</div>
+								<div class="price_item_bottom">
+									<div class="row">
+										<div class="col-md-12">
+											<div class="price_detail">
+												<h4>Html to Wordpress Woocommerce Website </h4>
+												<p>Lorem ipsum dolor sit ametcon secte adipisicing elit Sintume likumta.Lorem ipsum dolor sit ametcon secte adipisicing elit .</p>
+
+												<div class="price_progress progress">
+												    <div class="circle done">
+													    <span class="label">1</span>
+													    <span class="title">PSD</span>
+												 	</div>
+												  	<span class="bar done"></span>
+
+												  	<div class="circle done">
+													    <span class="label">2</span>
+													    <span class="title">HTML</span>
+												  	</div>
+												  	<span class="bar half"></span>
+
+													<div class="circle active">
+													    <span class="label">3</span>
+													    <span class="title">WORDPRESS</span>
+													</div>
+												  	<span class="bar"></span>
+
+												    <div class="circle">
+													    <span class="label">4</span>
+													    <span class="title">WOCOMMERCE</span>
+												    </div>
+												</div>
+
+												<ul class="price_explore list-inline">
+													<li><strong>Price</strong>Pre- $2500</li>
+													<li><strong>Discount</strong>$250</li>
+													<li><strong>Price</strong>New-$2500</li>
+												</ul>
+											</div>
+										</div>	
+									</div>
+								</div>	
+							</div>
+						</div>
+					
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- section our leagues-->
-		<section id="our_leagues_section" class="our_leagues_section padding_bottom_0">
-			<div class="container-fluid site_bgcolor margin_bottom_10 white">
-				<div class="row">
-					<div class="our_leagues_title text-center text-uppercase">
-						<h1>OUR LEAGUES</h1>
-						<p>(Choose a league)</p>
-					</div>
-				</div>
-			</div>
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-6">
-                        <a href="#" class="leagues_item">
-                            <div class="leagues_img">
-                                <img src="img/boys.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="leagues_title white">
-                                <h2>BOYS</h2>
-                            </div>
-                        </a>
-					</div>
-					<div class="col-md-6">
-                        <a href="#" class="leagues_item">
-                            <div class="leagues_img">
-                                <img src="img/girls.png" class="img-responsive" alt="">
-                            </div>
-                            <div class="leagues_title white">
-                                <h2>GIRLS</h2>
-                            </div>
-                        </a>
-					</div>
-				</div>
-			</div>
-		</section>
 
-		<!--about us section -->
-		<section id="about_us" class="about_us padding_top_100 padding_bottom_100 bottom_shadow">
+
+		<!--Client Testimonial-->
+		<section id="testimonial_section" style="padding-bottom:0px !important">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-5">
-						<div class="aboutus_img">
-							<img src="img/aboutus.png" class="img-responsive">
+				<div class="text-center padding_bottom_60">
+					<h2>What others say to us</h2>
+					<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse <br>illum dolore eu feugiat nulla facilisis at vero eros et.</p>
+				</div>
+
+				<div class="col-md-4 testimonial_item animated">
+					<div class="testimonial">
+						<div class="testimonial_author text-center">
+							<div class="testimonial_author_thumbnail">
+								<img src="img/client-1.jpg" alt="">
+							</div>
+							<p class="info"><span class="name">Elza Vergara</span></p>
+							<blockquote>
+							<p>"AWESOME, AWESOME THEME. EASY TO USE AND THE CODE AND ACCOMPANYING FILES ARE SUPER EASY TO UNDERSTAND AND MODIFY. WELL DONE.”</p>
+							</blockquote>
+					        <div class="star_ratings_css">
+					            <div class="star_ratings_css_top" style="width: 100%">
+					          		<span>★</span>
+					          		<span>★</span>
+					          		<span>★</span>
+					          		<span>★</span>
+					          		<span>★</span>
+					          	</div>
+					        </div>
 						</div>
 					</div>
-					<div class="col-md-7">
-						<div class="aboutus_content text-center">
-							<h4><a href="#">WC Elevated Lacrosse</a>  is a full club program that competes in fall, summer & winter tournaments. </h4>
-							<a href="#" class="btn btn_register">More Read</a>
+				</div>
+				<div class="col-md-4 testimonial_item animated">
+					<div class="testimonial">
+						<div class="testimonial_author text-center">
+							<div class="testimonial_author_thumbnail">
+								<img src="img/client-1.jpg" alt="">
+							</div>
+							<p class="info"><span class="name">Elza Vergara</span></p>
+							<blockquote>
+							<p>"AWESOME, AWESOME THEME. EASY TO USE AND THE CODE AND ACCOMPANYING FILES ARE SUPER EASY TO UNDERSTAND AND MODIFY. WELL DONE.”</p>
+							</blockquote>
+					        <div class="star_ratings_css">
+					            <div class="star_ratings_css_top" style="width: 100%">
+					          		<span>★</span>
+					          		<span>★</span>
+					          		<span>★</span>
+					          		<span>★</span>
+					          		<span>★</span>
+					          	</div>
+					        </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 testimonial_item animated">
+					<div class="testimonial">
+						<div class="testimonial_author text-center">
+							<div class="testimonial_author_thumbnail">
+								<img src="img/client-1.jpg" alt="">
+							</div>
+							<p class="info"><span class="name">Elza Vergara</span></p>
+							<blockquote>
+							<p>"AWESOME, AWESOME THEME. EASY TO USE AND THE CODE AND ACCOMPANYING FILES ARE SUPER EASY TO UNDERSTAND AND MODIFY. WELL DONE.”</p>
+							</blockquote>
+					        <div class="star_ratings_css">
+					            <div class="star_ratings_css_top" style="width: 100%">
+					          		<span>★</span>
+					          		<span>★</span>
+					          		<span>★</span>
+					          		<span>★</span>
+					          		<span>★</span>
+					          	</div>
+					        </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 testimonial_item animated">
+					<div class="testimonial">
+						<div class="testimonial_author text-center">
+							<div class="testimonial_author_thumbnail">
+								<img src="img/client-1.jpg" alt="">
+							</div>
+							<p class="info"><span class="name">Elza Vergara</span></p>
+							<blockquote>
+							<p>"AWESOME, AWESOME THEME. EASY TO USE AND THE CODE AND ACCOMPANYING FILES ARE SUPER EASY TO UNDERSTAND AND MODIFY. WELL DONE.”</p>
+							</blockquote>
+					        <div class="star_ratings_css">
+					            <div class="star_ratings_css_top" style="width: 100%">
+					          		<span>★</span>
+					          		<span>★</span>
+					          		<span>★</span>
+					          		<span>★</span>
+					          		<span>★</span>
+					          	</div>
+					        </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 testimonial_item animated">
+					<div class="testimonial">
+						<div class="testimonial_author text-center">
+							<div class="testimonial_author_thumbnail">
+								<img src="img/client-1.jpg" alt="">
+							</div>
+							<p class="info"><span class="name">Elza Vergara</span></p>
+							<blockquote>
+							<p>"AWESOME, AWESOME THEME. EASY TO USE AND THE CODE AND ACCOMPANYING FILES ARE SUPER EASY TO UNDERSTAND AND MODIFY. WELL DONE.”</p>
+							</blockquote>
+					        <div class="star_ratings_css">
+					            <div class="star_ratings_css_top" style="width: 100%">
+					          		<span>★</span>
+					          		<span>★</span>
+					          		<span>★</span>
+					          		<span>★</span>
+					          		<span>★</span>
+					          	</div>
+					        </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 testimonial_item animated">
+					<div class="testimonial">
+						<div class="testimonial_author text-center">
+							<div class="testimonial_author_thumbnail">
+								<img src="img/client-1.jpg" alt="">
+							</div>
+							<p class="info"><span class="name">Elza Vergara</span></p>
+							<blockquote>
+							<p>"AWESOME, AWESOME THEME. EASY TO USE AND THE CODE AND ACCOMPANYING FILES ARE SUPER EASY TO UNDERSTAND AND MODIFY. WELL DONE.”</p>
+							</blockquote>
+					        <div class="star_ratings_css">
+					            <div class="star_ratings_css_top" style="width: 100%">
+					          		<span>★</span>
+					          		<span>★</span>
+					          		<span>★</span>
+					          		<span>★</span>
+					          		<span>★</span>
+					          	</div>
+					        </div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!--our off season program -->
-		<section id="off_season_program" class="off_season_program">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="off_season_program_title text-center">
-							<h3>OFF SEASON<span>PROGRAM</span></h3>
-						</div>
-						<div class="off_season_program_item text-uppercase site_bgcolor white text-center">
-							<h3>SUMMER LEAGUE</h3>
-							<p>(BOY & GIRLS)</p>
-						</div>
-						<div class="off_season_program_item text-uppercase site_bgcolor white text-center">
-							<p>Fall & Winter</p>
-							<h3>Clinics</h3>
-							<p>(BOY & GIRLS)</p>
-						</div>
-						<div class="off_season_program_item text-uppercase site_bgcolor white text-center">
-							<h3>Camps</h3>
-							<span>WC summer and UNC potentially morning<br>activity and athletic coordination camps new this summer</span>
-						</div>
-						<div class="off_season_program_item text-uppercase site_bgcolor white text-center">
-							<h3>Lacrosse Training</h3>
-							<p>(individual / small group)</p>
-						</div>
-						<div class="off_season_program_item text-uppercase site_bgcolor white text-center">
-							<h3>SPEED SCHOOL</h3>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="twiiter_feed">
-							<img src="img/fonz2.png" class="img-responsive">
-						</div>
-						<div class="facebook_feed text-uppercase">
-							<h3>Feacbook Feed</h3>
-						</div>
-					</div>
+				<section id="team_member_section">
+			<div class="container">
+				<div class="row text-center">
+					<h2>Our Expert <span class="site_color">Team Members</span></h2>
+					<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse <br>illum dolore eu feugiat nulla facilisis at vero eros et.</p>
 				</div>
-			</div>
-		</section>
+				<div class="row padding_top_60">
+					<div class="team_member_items">
+						<div class="col-md-4">
+							<div class="teammember_item">
+								<div class="member_info">
+									<img src="img/teammember/client_img1.png" class="img-responsive pull-left">
+									<div class="member_info_text">
+										<h3>Rubel Hossen</h3>
+										<p>Graphic Designer</p>
+									</div>
+								</div>
+								<div class="member_content">
+									<p>orem ipsum dolor sit amet consectetuer adip iscing elit sed diam nonummy nibh euismod ti ncidunt ut laoreet dolore magna</p>
+									<ul class="list-inline social_team">
+										<li>
+											<a href="#"><span class="ion-social-facebook-outline"></span></a>
+										</li>
+										<li>
+											<a href="#"><span class="ion-social-tumblr-outline"></span></a>
+										</li>
+										<li>
+											<a href="#"><span class="ion-social-twitter-outline"></span></a>
+										</li>
+										<li>
+											<a href="#"><span class="ion-social-skype-outline"></span></a>
+										</li>
+									</ul>
 
-		<!--footer section -->
-		<footer id="footer_section">
-			<div class="footer_top_section" style="background: url('img/underground-city-64833_1280-1.jpg') no-repeat center center fixed;"">
-				<div class="footer_top">
-					<div class="container">
-						<div class="col-md-6 text-center white padding_top_60 padding_bottom_60 footer_top_left">
-							<h4>Thank You to <br>Our Sponsors!</h4>
-							<div class="sponsors_logo">
-								<div class="row padding_bottom_45">
-									<div class="col-md-6">
-										<img src="img/01.png" class="img-responsive">
-									</div>
-									<div class="col-md-6">
-										<img src="img/02.png" class="img-responsive">
-									</div>
-								</div>
-								<div class="row padding_bottom_45">
-									<div class="col-md-6">
-										<img src="img/03.png" class="img-responsive">
-									</div>
-									<div class="col-md-6">
-										<img src="img/04 .png" class="img-responsive">
-									</div>
-								</div>
-								<div class="row padding_bottom_45">
-									<div class="col-md-4">
-										<img src="img/05.png" class="img-responsive">
-									</div>
-									<div class="col-md-4">
-										<img src="img/06.png" class="img-responsive">
-									</div>
-									<div class="col-md-4">
-										<img src="img/07.png" class="img-responsive">
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 text-center white padding_top_60 padding_bottom_60 footer_top_right">
-							<div class="footer_contact_title text-uppercase">
-								<h5>Contact US</h5>
-								<p>Leave Your Contact Information Below</p>
-							</div>
-							<div class="contact_US">
-								<form class="contact_form">
-									<input type="text" name="MERGE1" placeholder="Name" class="input_box">
-									<input type="text" name="MERGE1" placeholder="Email" class="input_box">
-									<input type="text" name="MERGE1" placeholder="Phone" class="input_box">
-									<input type="text" name="MERGE1" placeholder="Subject" class="input_box">
-									<textarea class="message_box" rows="7" cols="30"></textarea>
-									<input type="submit" value="SUBMIT" class="btn_register submit_button_contact">
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-				</div>
-				<!--footer bottom -->
-				<div class="footer_bottom_section site_bgcolor white">
-					<div class="container">
-						<div class="col-md-3">
-							<div class="footer_widget padding_top_60 padding_bottom_60">
-								<ul class="quick_links">
-									<li><a href="#">Behavior and Abuse Policy</a></li>
-									<li><a href="#">Refund Policy</a></li>
-									<li><a href="#">Code of Conduct</a></li>
-									<li><a href="#">Concussion Awareness Education</a></li>
-									<li><a href="#">Master Schedule</a></li>
-									<li><a href="#">Kelly Field Schedule</a></li>
-									<li><a href="#">All Fields</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-2">
-							<div class="footer_widget padding_top_60 padding_bottom_60">
-								<ul class="quick_links">
-									<li><a href="#">Boys Lacrosse</a></li>
-									<li><a href="#">Girls Lacrosse</a></li>
-									<li><a href="#">Skills & Drills</a></li>
-									<li><a href="#">Lacrosse Speed & Training</a></li>
-									<li><a href="#">Documents</a></li>
-									<li><a href="#">Links</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="footer_widget padding_top_60 padding_bottom_60">
-								<div class="footer_logo">
-									<img src="img/logo.png" class="img-responsive">
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4">
-							<div class="footer_widget padding_top_60 padding_bottom_60">
-								<div class="footer_content">
-									<h6>General questions</h6>
-									<p> (Registration, website, payment, etc):</p>
-									<p>contact Mike Bauer at <a href="#">m bauerwclax@gmail.com</a></p>
-									<p>(NOTE: program specific questions sent to 
-										Mike Bauer will be forwarded to the program administrators)</p>
+							<div class="teammember_item">
+								<div class="member_info">
+									<img src="img/teammember/client_img2.png" class="img-responsive pull-left">
+									<div class="member_info_text">
+										<h3>Rubel Hossen</h3>
+										<p>Graphic Designer</p>
+									</div>
+								</div>
+								<div class="member_content">
+									<p>orem ipsum dolor sit amet consectetuer adip iscing elit sed diam nonummy nibh euismod ti ncidunt ut laoreet dolore magna</p>
+									<ul class="list-inline social_team">
+										<li>
+											<a href="#"><span class="ion-social-facebook-outline"></span></a>
+										</li>
+										<li>
+											<a href="#"><span class="ion-social-tumblr-outline"></span></a>
+										</li>
+										<li>
+											<a href="#"><span class="ion-social-twitter-outline"></span></a>
+										</li>
+										<li>
+											<a href="#"><span class="ion-social-skype-outline"></span></a>
+										</li>
+									</ul>
+
 								</div>
 							</div>
 						</div>
-					</div>
-					
+						<div class="col-md-4">
+							<div class="teammember_item">
+								<div class="member_info">
+									<img src="img/teammember/client_img3.png" class="img-responsive pull-left">
+									<div class="member_info_text">
+										<h3>Rubel Hossen</h3>
+										<p>Graphic Designer</p>
+									</div>
+								</div>
+								<div class="member_content">
+									<p>orem ipsum dolor sit amet consectetuer adip iscing elit sed diam nonummy nibh euismod ti ncidunt ut laoreet dolore magna</p>
+									<ul class="list-inline social_team">
+										<li>
+											<a href="#"><span class="ion-social-facebook-outline"></span></a>
+										</li>
+										<li>
+											<a href="#"><span class="ion-social-tumblr-outline"></span></a>
+										</li>
+										<li>
+											<a href="#"><span class="ion-social-twitter-outline"></span></a>
+										</li>
+										<li>
+											<a href="#"><span class="ion-social-skype-outline"></span></a>
+										</li>
+									</ul>
+
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="teammember_item">
+								<div class="member_info">
+									<img src="img/teammember/client_img1.png" class="img-responsive pull-left">
+									<div class="member_info_text">
+										<h3>Rubel Hossen</h3>
+										<p>Graphic Designer</p>
+									</div>
+								</div>
+								<div class="member_content">
+									<p>orem ipsum dolor sit amet consectetuer adip iscing elit sed diam nonummy nibh euismod ti ncidunt ut laoreet dolore magna</p>
+									<ul class="list-inline social_team">
+										<li>
+											<a href="#"><span class="ion-social-facebook-outline"></span></a>
+										</li>
+										<li>
+											<a href="#"><span class="ion-social-tumblr-outline"></span></a>
+										</li>
+										<li>
+											<a href="#"><span class="ion-social-twitter-outline"></span></a>
+										</li>
+										<li>
+											<a href="#"><span class="ion-social-skype-outline"></span></a>
+										</li>
+									</ul>
+
+								</div>
+							</div>
+						</div>
+					</div>	
 				</div>
-			<!-- </div> -->
+			</div>
+		</section>
+
+		<!--call to acation -->
+		<section class="calltoaction" style="background: #333 url(img/callto.jpg) repeat 0% 0% / 100% auto;">
+	        <div class="container">
+	            <div class="widget_content">
+	                <div class="row">
+	                    <div class="col-lg-9 callto-pull-left">
+	                        <div class="callto_text">
+	                            <h4>
+									want to repair <span class="callto_hover"> your  Smartphone?</span>
+								</h4>
+	                            <p>
+	                                We're here to help you manage your problem.
+	                            </p>
+	                        </div>
+	                    </div>
+	                    <div class="col-lg-3 callto_link">
+	                        <a href="#" class="more_link">Send Request</a>
+	                    </div>
+	                </div>
+	                <!--/ row -->
+	            </div>
+	            <!--/ widget -->
+	        </div>
+        <!--/ container -->
+    	</section>
+
+		<section id="blog_section">
+			<div class="container">
+				<div class="section_title text-center">
+					<p> Our Repair Services</p>
+					<h3>Latest Blog</h3>
+				</div>
+				<div class="row padding_top_30">
+					<div class="col-md-6 col-sm-12">
+						<div class="blog_item">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="blog_item_thumb">
+										<img src="img/blog1.png" class="img-responsive"> 
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="blog_item_meta">
+										<h2><a href="#">Lorem ipsum dolor</a></h2>
+										<div class="metadata"> 
+											<i class="fa fa-calendar"></i>
+											<a href="#">16/03/2016</a> 
+											<span class="divider"> | </span> 
+											<i class="fa fa-user"></i>
+											<a href="#">Themelooks</a> 
+										</div>
+										<p>Sequi cupiditate officia, dolorum accusantium autem eligendi veritatis voluptate id voluptatum earum, quo assumenda ab tempora commodi ipsam totam repellendus necessitatibus. Nemo nam ratione recusandae.</p><br/>
+										<p>Lorem ipsum dolor sit amet, placeat necessitatibus dolor sit amet Lorem ipsum dolor</p>
+										<a href="#" class="btn btn_read_more footer_btn">Read More</a>
+									</div>
+								</div>	
+							</div>
+						</div>	
+					</div>
+					<div class="col-md-6 col-sm-12">
+						<div class="blog_item padding_bottom_15">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="blog_item_thumb">
+										<img src="img/blog3.jpg" class="img-responsive"> 
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="blog_item_meta">
+										<h2><a href="#">Lorem ipsum dolor</a></h2>
+										<div class="metadata"> 
+											<i class="fa fa-calendar"></i>
+											<a href="#">16/03/2016</a> 
+											<span class="divider"> | </span> 
+											<i class="fa fa-user"></i>
+											<a href="#">Themelooks</a> 
+										</div>
+										<p>Lorem ipsum dolor sit amet, placeat necessitatibus dolor sit amet Lorem ipsum dolor</p>
+										<a href="#" class="btn btn_read_more footer_btn">Read More</a>
+									</div>
+								</div>	
+							</div>
+						</div>
+						<div class="blog_item">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="blog_item_thumb">
+										<img src="img/blog2.jpg" class="img-responsive"> 
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="blog_item_meta">
+										<h2><a href="#">Lorem ipsum dolor</a></h2>
+										<div class="metadata"> 
+											<i class="fa fa-calendar"></i>
+											<a href="#">16/03/2016</a> 
+											<span class="divider"> | </span> 
+											<i class="fa fa-user"></i>
+											<a href="#">Themelooks</a> 
+										</div>
+										<p>Lorem ipsum dolor sit amet, placeat necessitatibus dolor sit amet Lorem ipsum dolor</p>
+										<a href="#" class="btn btn_read_more footer_btn">Read More</a>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<!--our band icons-->
+	    <section id="brands">
+	    	<div class="container">
+		      	<div class="row">
+		          	<div class="owl-carousel">
+			            <div class="band_item">
+			            	<div class="col-md-12">
+			             		 <img src="img/band_icon/01.png" class="img-responsive">
+			             	</div>
+			            </div>
+			            <div class="band_item">
+			            	<div class="col-md-12">
+			              		<img src="img/band_icon/02.png" class="img-responsive">
+			              	</div>	
+			            </div>
+			            <div class="band_item">
+			            	<div class="col-md-12">
+			             		<img src="img/band_icon/03.png" class="img-responsive">
+			             	</div>
+			            </div>
+			            <div class="band_item">
+			            	<div class="col-md-12">
+			              		<img src="img/band_icon/05.png" class="img-responsive">
+			              	</div>
+			            </div>
+			            <div class="band_item">
+			            	<div class="col-md-12">
+			              		<img src="img/band_icon/06.png" class="img-responsive">
+			              	</div>
+			            </div>
+			            <div class="band_item">
+			            	<div class="col-md-12">
+			              		<img src="img/band_icon/04 .png" class="img-responsive">
+			              	</div>
+			            </div>
+		          	</div>
+		      	</div>
+		    </div>
+	    </section>
+
+
+
+<!-- <div class="phone">
+<iframe src="http://mycustomfloatingkeychains.com/" frameborder="0" scrolling="no"></iframe>
+<div class="statusbar"></div>
+<div class="theme-switch"><a href="kitchen-sink-ios/" target="_blank" class="active" sl-processed="1">
+<div class="theme-icon">
+<div class="logo-apple"></div><span>iOS</span>
+</div>
+<div class="fullscreen"><i></i><span>Fullscreen<br>Preview</span></div></a><a href="kitchen-sink-material/" target="_blank" sl-processed="1">
+<div class="theme-icon">
+<div class="logo-android"></div><span>Material</span>
+</div>
+<div class="fullscreen"><i></i><span>Fullscreen<br>Preview</span></div></a></div>
+</div>
+ -->
+
+
+
+
+
+		<footer id="footer_section">
+			<div class="container padding_bottom_30">
+				<div class="row">
+					<div class="col-md-6 footer_widget">
+						<div class="footer_about">
+							<h4>About Us</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quod mollitia quisquam. Architecto quam in atque sint voluptatem, consequatur consectetur ab ipsum maxime quod consequuntur excepturi illum dolorem ex modi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur animi id ex perspiciatis distinctio sequi minima. Velit inventore fugit, quisquam molestias nesciunt dolorem reprehenderit temporibus unde, cupiditate pariatur libero dolorum!</p>
+							<a href="#" class="btn btn_read_more footer_btn">Read More</a>
+						</div>
+					</div>
+					<div class="col-md-3 footer_widget">
+						<div class="footer_subcribe">
+							<h4>Subscribe</h4>
+							<form class="subcribe_from">
+								<input type="text" name="MERGE1" placeholder="Enter your full name" class="input_box">
+								<input type="text" name="EMAIL" placeholder="Enter your email address" class="input_box">
+								<input type="submit" value="Subscribe" class="submit_button_subcribe">
+							</form>
+						</div>
+					</div>
+					<div class="col-md-3 footer_widget">
+						<div class="footer_quicklink">
+							<h4>Quick Link</h4>
+							<ul> 
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Acceptable Usage Policy</a></li>
+								<li><a href="#">Terms &amp; Conditions</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contact_info">
+				<div class="container">
+				    <div class="row">
+				        <div class="col-md-3 col-xs-6"> 
+				        	<i class="fa fa-headphones"></i> 
+				        	<a href="#">24/7 Customer Support</a> 
+				        </div>
+				        <div class="col-md-3 col-xs-6"> 
+					        <i class="fa fa-envelope-o"></i> 
+					        <a href="#">support@example.com</a> 
+				        </div>
+				        <div class="col-md-3 col-xs-6"> 
+					        <i class="fa fa-comments-o"></i> 
+					        <a href="#">Click Here To Live Chat</a> 
+				        </div>
+				        <div class="col-md-3 col-xs-6"> 
+				        	<i class="fa fa-phone"></i> 
+				        	<a href="#">+44 000 000 000</a>
+				        </div>
+				    </div>
+				</div>
+			</div>
 		</footer>
-
-
-
-
-
-
-
-
+		<div id="copyright"> 
+			<div class="container"> 
+				<p class="left">Copyright 2017 © <a href="#">Wpsoftsolution</a>. All Rights Reserved.</p>
+				<p class="right">We Accept: <img src="img/payment-methods.png" alt=""></p>
+			</div>
+		</div>
+		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.js"></script>
 		<script src="js/slick.min.js"></script>
 		<script src="js/settings.js"></script>
+		<script src="js/progressbar.js"></script>
+	
+		
+		
+        <script src="js/jquery.grozav.plugins.min.js" type="text/javascript"></script>
+        <script src="js/jquery.grozav.bootslider.min.js" type="text/javascript"></script>
+        <script>
+            $(document).ready(function() {
+                var slider = new bootslider('#bootslider', {
+                    animationIn: "fadeInUp",
+                    animationOut: "flipOutX",
+                    timeout: 5000,
+                    autoplay: true,
+                    preload: true,
+                    pauseOnHover: false,
+                    thumbnails: false,
+                    pagination: false,
+                    mousewheel: false,
+                    keyboard: true,
+                    touchscreen: true,
+                    layout: 'default',
+                    canvas: {
+                        width: 1440,
+                        height: 720
+                    }
+                });
+                slider.init();
+
+                var slider2 = new bootslider('#bootsliderContent', {
+                    animationIn: "fadeInLeft",
+                    animationOut: "fadeOutRight",
+                    timeout: 5000,
+                    autoplay: false,
+                    preload: false,
+                    pauseOnHover: false,
+                    thumbnails: false,
+                    pagination: false,
+                    mousewheel: false,
+                    keyboard: true,
+                    touchscreen: true,
+                    layout: 'content'
+
+                });
+                slider2.init();
+
+
+                $('a[data-animation-test]').click(function() {
+                    var anim = $(this).attr('data-animation-test');
+                    $(this).removeClass(anim).addClass(anim + ' animated').one('webkitAnimationEnd oAnimationEnd', function() {
+                        $(this).removeClass(anim);
+                    });
+                });
+            });
+        </script>
+		
 	</body>
 </html>
