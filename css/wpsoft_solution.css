@@ -183,6 +183,9 @@ button:focus {
 .padding_bottom_15{
   padding-bottom:15px;
 }
+.margin_top_60{
+  margin-top:60px;
+}
 .blue_bg {
     background-color: #091271;
     color: white;
@@ -731,7 +734,7 @@ section#price_section h2 {
 .price_content {
     padding-left: 0;
     padding-top: 30px;
-    padding-right: 30px;
+    padding-right: 20px;
     padding-bottom: 30px;
     color: #fff;
 }
@@ -741,8 +744,9 @@ span.price {
     line-height: 25px;
 }
 .price_content h3 {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
+    line-height: 25px;
 }
 
 a.btn.get_invoice {
@@ -766,11 +770,12 @@ a.get_invoice:hover {
 .price_detail h4 {
     font-size: 20px;
     line-height: 30px;
-    padding: 5px 0px;
+    padding: 12px 0px;
 }
 .price_detail p {
     line-height: 23px;
     letter-spacing: 1px;
+    padding-bottom: 10px;
 }
 ul.price_explore {
     list-style: none;
@@ -799,6 +804,7 @@ ul.price_explore li:last-child {
     -webkit-box-shadow: none;
     box-shadow: none;
     width: 100%;
+    display: none;
 }
 
 @media screen and (max-width: 520px){
@@ -864,7 +870,40 @@ ul.price_explore li {
     padding-left: 15px;
 }
 }
-
+/***********Our activities *************/
+.our_activities{
+    position: relative;
+    background: url(img/dark_embroidery.png) center top;
+    border-top-color: #5d6c7f;
+   
+}
+.overlay_ouracitivies{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+}
+.activities_item h1{
+    font-size: 38px;
+    font-weight: 100;
+    margin-bottom: 15px;
+    color: #4d73ff;
+}
+.activities_item h5{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    color: white;
+}
+.activities_item p {
+    margin-right: 8%;
+    margin-top: 30px;
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+}
 /*************team member section *********/
 .member_info {
     display: block;
