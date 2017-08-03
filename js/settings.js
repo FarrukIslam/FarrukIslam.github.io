@@ -238,4 +238,40 @@ $(window).on('mousewheel DOMMouseScroll', function (e) {
     }
 });
 }
+
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+var  mn = $(".navbar.navbar-default");
+var  mns = "navbar-fixed-top";
+var  hdr = $('#header').height(); 
+
+$(window).scroll(function() {
+  if( $(this).scrollTop() > (hdr+200) ) {
+    mn.addClass(mns);
+  } else {
+    mn.removeClass(mns);
+  }
+});
+
+
+
+
+$(function () {
+  $(document).scroll(function () {
+	  var $nav = $(".navbar-fixed-top");
+	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	});
 });
