@@ -241,6 +241,7 @@ $(window).on('mousewheel DOMMouseScroll', function (e) {
 
 
 
+
 });
 
 
@@ -274,4 +275,42 @@ $(function () {
 	  var $nav = $(".navbar-fixed-top");
 	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 	});
+});
+
+
+$(function () {
+    $('.textBox').focus(function () {
+         if ($(this).val().trim() == "")
+         {
+            $(this).prev().css({
+                top: '-10px',
+                fontSize: '0.7em'
+            });
+         }
+         $(this).prev().css({
+            color: '#06C7CE'
+         });
+    })
+
+    $('.textBox').blur(function () {
+         if ($(this).val().trim() == "")
+         {
+            $(this).prev().css({
+                top: '12px',
+                fontSize: '0.8em'
+            });
+         }
+         $(this).prev().css({
+            color: '#AAA'
+        });
+    }) 
+})
+
+
+
+$(document).ready(function() {
+    // only show CodePen link if on debug view (with no header)
+    if (location.pathname.indexOf('debug') > -1) {
+        $('#view-on-codepen').css('display','inline-table')
+    }
 });
